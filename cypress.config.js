@@ -13,6 +13,10 @@ module.exports = defineConfig({
     },
     baseUrl: 'https://the-internet.herokuapp.com',
     video: true,
-    screenshotOnRunFailure: true
+    screenshotOnRunFailure: true,
+
+    experimentalRunAllSpecs: true,
+    screenshotsFolder: 'cypress/screenshots',
+    trashAssetsBeforeRuns: true,
   },
 });

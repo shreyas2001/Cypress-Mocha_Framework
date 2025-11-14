@@ -16,4 +16,9 @@ describe('Login Success Test', () => {
         LoginPage.elements.successMessage().should('be.visible');
         logs.info('Login successful, success message is visible');
     });
+
+// capturing ss
+    afterEach(() => {
+        cy.screenshot();
+    });
 });

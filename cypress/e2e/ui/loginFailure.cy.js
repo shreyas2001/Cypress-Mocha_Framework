@@ -14,4 +14,10 @@ describe('Login Failure Test', () => {
         LoginPage.elements.errorMessage()
             .should('contain', 'Your username is invalid!');
     });
+
+
+    // capturing ss
+    afterEach(() => {
+        cy.screenshot();
+    });
 });
