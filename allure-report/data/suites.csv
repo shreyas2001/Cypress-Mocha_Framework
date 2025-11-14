@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","121","Should return 404 for invalid endpoint","","Fri Nov 14 10:57:05 IST 2025","passed","Fri Nov 14 10:57:06 IST 2025","","Post Method API Test","",""
-"","462","Get api response","","Fri Nov 14 10:57:00 IST 2025","passed","Fri Nov 14 10:57:00 IST 2025","","Checking GET api response","",""
-"","7746","Should show error message for invalid login","","Fri Nov 14 12:20:40 IST 2025","passed","Fri Nov 14 12:20:47 IST 2025","","Login Failure Test","",""
-"","1232","Should create a new post using Axios","","Fri Nov 14 12:20:34 IST 2025","passed","Fri Nov 14 12:20:35 IST 2025","","Post Method API Test","",""
-"","7726","User should login successfully","","Fri Nov 14 12:20:53 IST 2025","passed","Fri Nov 14 12:21:01 IST 2025","","Login Success Test","",""
