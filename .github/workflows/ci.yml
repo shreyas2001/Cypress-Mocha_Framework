@@ -9,23 +9,23 @@ on:
       - main
 
 jobs:
-  run-tests:
+  cypress-run:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: 18
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run Cypress tests
-        run: npx cypress run
+      - name: Run Cypress tests with official action
+        uses: cypress-io/github-action@v6
+        with:
+          install-command: npm ci
+          command: npx cypress run --env allure=true
 
       - name: Generate Allure Report
         run: npx allure-commandline generate allure-results --clean
