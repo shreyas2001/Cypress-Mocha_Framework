@@ -91,11 +91,11 @@ Step 2 - Generate HTML report:
 npx allure-commandline generate allure-results --clean -o allure-report
 
 Step 3 - Open report:
-npx allure open
+allure serve .
 
 IMPORTANT:
 Do NOT double-click index.html
-Always use: npx allure open
+Always use: allure serve .
 
 
 ------------------------------------------------------------
