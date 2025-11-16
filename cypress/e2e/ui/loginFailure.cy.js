@@ -1,7 +1,5 @@
 import loginData from '../../fixtures/loginData.json';
 import LoginPage from '../../pages/loginPage';
-import './commands';
-
 
 describe('Login Failure Test', () => {
     it('Should show error message for invalid login', () => {
